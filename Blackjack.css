@@ -1,0 +1,22 @@
+
+.tabletop {
+    background: green;
+    /* background-size: 150px; */
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    border: 2px solid
+}
+
+.alinea {
+    margin-left: 16%;
+    color: white;
+}
+
+.title2{
+    margin-left: 32%;
+    color:white
+}
+.alinea_image{
+    margin-left: 40%;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>  
+    <!--L'entete : avec le titre, l'encoding, l'auteur, description -->
+        <meta charset ="utf-8" />
+        <meta name = "description" content="Blackjack HTML" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name = "keywords" content="exercise, HTML, Master, game" />
+        <meta name="author" content="Vincent Casamayou" />
+        <link rel="stylesheet" type="text/css" media="screen" href="Blackjack.css" />
+        <title> Blackjack</title>
+        </head>
+    
+    <body>
+        <h1>BlackJack</h1>
+        <div class="tabletop">
+            <div id="div1">
+                <h2 class="alinea"> Les cartes de la banque </h2>
+                <img class ="alinea_image" src="img/backcard.png" height=125 width=75 alt = "carte" id="bank_card"/>
+            </div>    
+
+            <div id="div2">    
+                <h2 class = "title2"> Vos cartes </h2>
+                <img class= "alinea_image" src="img/backcard.png" height=125 width=75 alt = "carte" id="player_card"/>
+            </div>
+        </div>
+        <div id ="Modified_bank">
+            La banque vous attend.
+        </div>
+        <div id="Modified">
+            Vous avez 0. Carte ou Reste?
+        </div>
+        <div>
+            <input type="button" value="Carte" id="card_button"/>
+            <input type="button" value="Reste" id="stop_button"/>
+            <input type="button" value="Rejouer" id="restart_button"/>
+        </div>
+    </body>
+
+    <script type="text/javascript" src="Blackjack.js"> </script>
