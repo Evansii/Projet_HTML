@@ -118,14 +118,16 @@ function Player_count(scored){
     for (var i=0;i<scored.length;i++){
         new_score = scored[i] + new_score;
     }
-    console.log(scored)
     if (new_score>42){
         for (var j=0;j<scored.length;j++){
             if (scored[j] == 11){   
                 scored[j] = 1;
             }
         }
-        new_score = scored[i] + new_score;
+        new_score =0;  
+        for (var i=0;i<scored.length;i++){
+            new_score = scored[i] + new_score;
+        }
     } 
     return new_score
 }
